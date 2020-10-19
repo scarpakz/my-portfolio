@@ -103,10 +103,9 @@ body{
 /* ABOUT CONTAINER */
 .about-container{
     display: flex;
-    height: 100vh;
 }
 .about-container .container{
-    padding-top: 100px;
+    padding:100px 0;
 }
 .about-container h2{
     margin-top: 40px;
@@ -140,4 +139,46 @@ body{
 }
 .skills{
     position: relative;
+}
+
+/* EXPERIENCE CONTAINER */
+.experience-container{
+    width: 100%;
+    background-color: #192a56;
+}
+
+.experience-container .container{
+    padding:140px 0;
+}
+
+.work-section{
+    color: #fff;
+    border-left: solid 4px #e910dc;
+    margin: 50px 10px;
+    padding: 50px 20px;
+}
+.work-section h2{
+    font-size: 40px;
+}
+.work-section span{
+    display: block;
+    font-size: 24px;
+}
+.work-section a{
+    color: white;
+}
+.experience-container .col-sm{
+    background-color: #13234d;
+    margin: 10px 10px;
+    transition: .4s;
+}
+.experience-container .row{
+    margin-bottom: 20px;
+}
+.experience-container a{
+    text-decoration: none;
+}
+
+.experience-container .col-sm:hover{
+    background-color: #34ace0;
 }
