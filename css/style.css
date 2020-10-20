@@ -234,3 +234,42 @@ body{
     font-size: 62px;
     font-weight: 600;
 }
+
+/* WORK CONTAINER */
+.work-container{
+    height: 100vh;
+}
+.work-content{
+    display: flex;
+}
+.work-left, .work-right{
+    flex: 1;
+}
+.pg-content, .rr-content{
+    margin: 150px;
+    position: relative;
+    height: 70vh;
+    padding: 150px 50px;
+}
+.pg-content img{
+    width: 100%;
+}
+.rr-content img{
+    width: 100%;
+}
+.work-label span{
+    padding: 15px;
+    margin:0 auto;
+    text-align: center;
+    color: #fff;
+}
+.work-label{
+    width: 100%;
+    display: flex;
+    background-color: #111;
+    bottom: 0;
+    position: fixed;
+}
+.work-left{
+    background-color: #efbbe9;
+}
