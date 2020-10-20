@@ -273,3 +273,8 @@ body{
 .work-left{
     background-color: #efbbe9;
 }
+
+/* GLOBAL */
+.container{
+    margin-top: 20px;
+}
