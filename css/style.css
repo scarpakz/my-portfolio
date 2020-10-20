@@ -185,9 +185,9 @@ body{
 
 /* EDUCATION CONTAINER */
 .education-container .container{
-    padding-top: 50px;
+    padding-top: 100px;
     display: flex;
-    padding-bottom: 100px;
+    padding-bottom: 200px;
 }
 .education-container .graduate-img img{
     width: 100%;
@@ -200,7 +200,8 @@ body{
 }
 .education-container .col-sm{
     position: relative;
-    display: flex;
+    margin-top: 70px;
+    border-left: solid 6px #fec94e;
 }
 .education-container .graduate-img{
     display: flex;
@@ -213,11 +214,8 @@ body{
 .school-logo img{
     width: 100%;
 }
-.education-container .project-content{
-    text-align: center;
-    padding-top: 150px;
-}
 .project-content{
+    padding-left: 20px;
     color: #192a56;
 }
 .project-content h1{
